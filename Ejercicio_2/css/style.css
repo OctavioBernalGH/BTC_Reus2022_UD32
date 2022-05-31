@@ -1,0 +1,63 @@
+.container-fluid{
+    height: 100vh;
+
+}
+
+#cabecera{
+    height: 17em;
+
+}
+
+#centro{
+    height: 35em;
+
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#mid{
+    padding-top: 60px;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+#piePagina{
+    height: 20em;
+
+}
+
+#fname, #lname, #mail, #phone{
+    width: 14em;
+
+}
+
+#fname{
+    margin-left: 35px;
+}
+
+#lname{
+    margin-left: 36px;
+}
+
+#mail{
+    margin-left: 35px;
+}
+
+#phone{
+    margin-left: 34px;
+}
+
+#subject{
+    margin-left: 85px;
+    height: 100px;
+    width: 220px;
+}
+
+#lapiz{
+    position: absolute;
+    
+}

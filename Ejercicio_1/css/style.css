@@ -1,0 +1,26 @@
+.container-fluid{
+    background-image: url("/Ejercicio_1/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#primeraFila{
+    height: 18em;
+}
+
+#medioFila{
+
+    height: 16em;
+}
+
+#columnaMedio{
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(240, 238, 235);
+    border-radius: 20px;
+}
