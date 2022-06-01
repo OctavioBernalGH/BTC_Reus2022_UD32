@@ -1,0 +1,38 @@
+.img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-link{
+    margin-left: 25px;
+}
+
+button{
+    margin-left: 5px;
+}
+
+#nav1{
+    margin-left: 50px;
+}
+
+#bannerContainer{
+    background: linear-gradient(rgb(226, 218, 218),rgb(252, 244, 244));
+    width: 100%;
+    height: 34vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1{
+    width: 100%;
+    padding-top: 1%;
+    margin-top: 35px;
+}
+
+#morcillaP{
+    width: 800px;
+}
+
+#morcillaCards{
+    margin-top: 25px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Ejercicio 3</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Morcillas Paco</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Historia</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mis Morcillas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Morcilla Roja</a></li>
+              <li><a class="dropdown-item" href="#">Morcilla Negra</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Otras morcillas...</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Morcillas en oferta</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar morcillas..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Morcilleame</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+      <div class="container-fluid" id="bannerContainer">
+        <center>
+        <h1>Reserva ya tu Morcilla de Paco !</h1><br>
+        <p id="morcillaP">En morcillas paco velamos por que el cliente deguste las morcillas de la tierra. Las morcillas de nuestra compañia
+          son artesanas, con un sabor indescriptible. Si compras un pack de morcillas, de regalo el pan. Morcillas paco fue fundada por el tío
+          Paco en 1890 en un pueblo morcillero de cuyo nombre no me quiero acordar. <br><br>Disfruta de una buena morcilla.
+        </p>
+        <button type="button" class="btn btn-warning">Reserva tu Morcilla</button>
+      </center>
+      
+      </div>
+
+      <div class="container" id="morcillaCards">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Ejercicio_4/img/m1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morcilla Sabrosona</h5>
+              <p class="card-text">Una morcilla padre, con un sabor magnífico, sabroso y ricote. Disfruta de la nueva morcilla sabrosona</p>
+              <center>
+              <button type="button" class="btn btn-success">Morcilleame</button>
+            </center>
+          </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Ejercicio_4/img/m2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morcilla de Cantabria</h5>
+              <p class="card-text">Morcilla producida por los artesanos de la comarca, con el mejor sabor en el paladar. Una morcilla divina.</p>
+              <center>
+                <button type="button" class="btn btn-success">Morcilleame</button>
+              </center>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 15 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Ejercicio_4/img/m3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Morcilla Salchichera</h5>
+              <p class="card-text">Primera morcilla del territorio, degusta su increible sabor una buena morcilla como nunca vista.</p>
+              <center>
+              <button type="button" class="btn btn-success">Morcilleame</button>
+            </center>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 45 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Morcilla Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Fotos Morcilla</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Morcillas</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Morcillas Paco... mer, Inc</p>
+    </footer>
+</body>
+</html>

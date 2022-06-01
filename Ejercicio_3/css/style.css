@@ -1,0 +1,28 @@
+.img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-link{
+    margin-left: 25px;
+}
+
+button{
+    margin-left: 5px;
+}
+
+#nav1{
+    margin-left: 50px;
+}
+
+#bodycontainer{
+    background: linear-gradient(white,gray);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    margin-top: 60px;
+}
