@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="calculadora">
+            <div class="row-fluid">
+                <input type="text" id="valor_numero" maxlength="20" value="0" class="caja" readonly="true">
+                <div class="calculator-keys">
+                    <button type="button" id="Dividir" class="btn btn-primary waves-effect boton funcion" onclick="operar(4)">/</button>
+                    <button type="button" id="Multiplicar" class="btn btn-primary boton funcion" onclick="operar(3)">*</button>
+                    <button type="button" id="Restar" class="btn btn-primary boton funcion" onclick="operar(2)">-</button>
+                    <button type="button" id="Sumar" class="btn btn-primary boton funcion" onclick="operar(1)">+</button>
+                    <button type="button" id="7" class="btn btn-success boton" onclick="darNumero('7')">7</button>
+                    <button type="button" id="8" class="btn btn-success boton" onclick="darNumero('8')">8</button>
+                    <button type="button" id="9" class="btn btn-success boton" onclick="darNumero('9')">9</button>
+                    <button type="button" id="4" class="btn btn-success boton" onclick="darNumero('4')">4</button>
+                    <button type="button" id="5" class="btn btn-success boton" onclick="darNumero('5')">5</button>
+                    <button type="button" id="6" class="btn btn-success boton" onclick="darNumero('6')">6</button>
+                    <button type="button" id="1" class="btn btn-success boton" onclick="darNumero('1')">1</button>
+                    <button type="button" id="2" class="btn btn-success boton" onclick="darNumero('2')">2</button>
+                    <button type="button" id="3" class="btn btn-success boton" onclick="darNumero('3')">3</button>
+                    <button type="button" id="0" class="btn btn-success boton_largo" onclick="darNumero('0')">0</button>
+                    <button type="button" id="," class="btn btn-success boton" onclick="darComa()">.</button>
+                    <button type="button" id="C" class="btn btn-danger boton funcion" onclick="darC()">AC</button>
+                    <button type="button" id="igual" class="btn btn-warning boton funcion" onclick="esIgual()">=</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
